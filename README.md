@@ -23,6 +23,17 @@ pnpm start
 pnpm dev
 ```
 
+## 🐹 Go demo utilities
+
+The repository also ships a self-contained Go implementation of the core
+utilities discussed above. You can run the demo program and execute the unit
+tests with the following commands:
+
+```bash
+go run ./cmd/totoro
+go test ./...
+```
+
 ## 📝 License
 
 [AGPL-3.0](LICENSE)
